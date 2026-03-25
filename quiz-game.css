@@ -18,8 +18,8 @@ body {
   background-color: #ffff;
   border-radius: 1rem;
   box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
-  width: 100%;
-  min-width: 600px;
+  width: 60%;
+  min-width: 400px;
   overflow: hidden;
   position: relative;
 }
@@ -153,7 +153,35 @@ button:hover {
   background-color: #d45b28;
 }
 
-@media(max-width:500px) {
+@media(max-width:1024px) {
+  .container{
+    width: 50%;
+    max-width: 300px;
+  }
+
+    .screen {
+    padding: 1rem;
+  }
+
+  #start-screen h1 {
+    font-size: 2rem;
+  }
+  #question-text {
+    font-size: 1.3rem;
+  }
+
+  .answer-btn {
+    padding: 12px;
+  }
+
+  button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
+
+
+@media(max-width:764px) {
   .screen {
     padding: 1rem;
   }
